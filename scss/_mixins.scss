@@ -1,0 +1,10 @@
+@mixin triangles-sizes-color($shape-width: 0, $shape-height: 0, $shape-color: red){
+    width: $shape-width;
+    height: $shape-height;
+    color: $shape-color;
+}
+
+@mixin other-shapes($other-width: 0, $other-height: 0){
+    width: $other-width;
+    height: $other-height;
+}
